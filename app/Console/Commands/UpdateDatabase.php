@@ -37,13 +37,13 @@ class UpdateDatabase extends Command
         Camera::create([
           'ip' => $cam[0],
           'port' => $cam[1],
-          'count' => $cam[3],
-          'source' => $cam[4],
-          'city' => $cam[5],
-          'country' => $cam[6],
-          'code' => $cam[7],
-          'lat' => $cam[9],
-          'long' => $cam[8] 
+          'count' => $cam[2],
+          'source' => $cam[3],
+          'city' => $cam[4],
+          'country' => $cam[5],
+          'code' => $cam[6],
+          'lat' => $cam[8],
+          'long' => $cam[7] 
         ]);
       }
 
